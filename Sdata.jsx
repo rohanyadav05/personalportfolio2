@@ -5,17 +5,17 @@ const Sdata =[
     {
         imgsrc:img1,
         title:"Digital Converter",
-        brief:"I used HTML, CSS, JavaScript for making this Converter"
+        brief:"I used HTML, CSS, JavaScript for making this Converter",
     },
     {
         imgsrc:img2,
         title:"Text Editor",
-        brief:"I used React Library for making this project"
+        brief:"I used React Library for making this project",
     },
     {
         imgsrc:img3,
         title:"Personal Portfolio",
-        brief:"I used React Library for making this project"
+        brief:"I used React Library for making this project",
     },
 ]
 
