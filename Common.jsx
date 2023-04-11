@@ -16,7 +16,7 @@ function Common(props) {
                                 <strong className='brand-name'> Rohan Yadav</strong>
                             </h1>
                             <h2 className="my-3">
-                                We are the team of talented developers making websites
+                            {props.content}
                             </h2>
                             <div className='mt-3'>
                                 <Link to={props.visit} className='btn-get-started'>

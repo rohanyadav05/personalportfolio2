@@ -39,7 +39,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/Service">
-                        Services
+                        Projects
                       </Link>
                     </li>
                     <li className="nav-item">
@@ -49,7 +49,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/contact">
-                        Contact Us
+                        Enquiry
                       </Link>
                     </li>
                   </ul>

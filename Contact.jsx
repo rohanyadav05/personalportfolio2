@@ -8,8 +8,8 @@ function Contact() {
   });
   const formSubmission = (e) => {
     e.preventDefault();
-    alert(`My name is  ${data.name}`);
-    console.log(`My name is  ${data.name}`);
+    alert(`Hi ${data.name}, I will contact you shortly`);
+    
   };
 
   const InputEvent = (e) => {

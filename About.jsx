@@ -5,10 +5,11 @@ function About() {
   return (
     <div>
       <Common
-        name="Welcome to About Page"
+        name="Welcome to About Page of"
+        content="I'm a software developer. I turn coffee into code, bugs into features, and deadlines into adrenaline-fueled coding marathons."
         imgsrc={img2}
-        visit="/Contact"
-        btnname="Contact Now"
+        visit="/History"
+        btnname="Know More About Me"
       ></Common>
     </div>
   );

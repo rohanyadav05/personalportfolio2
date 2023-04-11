@@ -6,14 +6,15 @@ function Card(props) {
     <>
      <div className='col-md-4 col-10 mx-auto'>
             <div className="card" >
+                <h2>{props.id}</h2>
   <img src={props.imgsrc} className="card-img-top" alt="..." />
-  <div className="card-body">
+  <div className="card-body text-center">
     <h5 className="card-title">{props.title}</h5>
-    <p className="card-text">
+    <p className="card-text text-center" >
       {props.brief}
     </p>
-    <Link to="" className="btn btn-primary">
-      Go somewhere
+    <Link to={props.link} className="btn btn-primary text-center">
+      Git Repository
     </Link>
   </div>
 </div>
